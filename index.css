@@ -1,0 +1,85 @@
+body{
+    background:#E3E7F0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.up{
+    display: flex;
+    gap: 20px;
+}
+.david{
+    background-color:#733FC5;
+    color:white;
+    padding: 25px;
+    width: 500px;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 1px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    
+}
+.jonathan{
+    background-color:#646C7F;
+    color:white;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    
+}
+.down{
+    display: flex;
+    gap: 20px;
+}
+.jeanette{
+    background-color: rgb(252, 250, 249);
+    color:#292D38;
+    padding: 25px;
+    width: 200px;
+    box-shadow: 12px 4px 12px rgba(0,0,0,0.1);
+        border-radius: 10px;
+}
+.patrick{
+    background-color:#292D38;
+    color:white;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 12px 4px 12px rgba(0,0,0,0.1);
+        border-radius: 10px;
+}
+.small{
+    background-color:white;
+    color:#292D38;
+    box-shadow: 12px 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+img{
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-style: italic;
+    font-size: small;
+}
+h3{
+    font-weight: 500;
+}
+p{
+    font-weight: 200;
+}
